@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px black;
+}
+
+form .title {
+    color: blueviolet;
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+form label {
+    margin-bottom: 35px;
+}
+
+form label .fa-solid {
+    font-size: 110%;
+    color: blueviolet;
+    margin-right: 10px;
+}
+
+form label input {
+    outline: none;
+    border: none;
+    border-bottom: solid 1px rgb(199, 7, 238);
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+form label input::placeholder {
+    color: rgb(181, 179, 179);
+}
+
+form a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 8%;
+}
+
+#button {
+    color: white;
+    border:none;
+background-color: blueviolet;
+padding: 7px 20px;
+cursor:pointer;
+font-size: 20px;}
+
+#button:hover {
+    background-color: rgb(222, 194, 249);
+}
